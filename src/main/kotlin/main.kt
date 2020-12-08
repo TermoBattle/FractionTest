@@ -1,3 +1,13 @@
+import fractions.Fraction
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+    val fractions = listOf<Fraction>(
+        Fraction(1,2),
+        Fraction(1,-2),
+        Fraction(-1,2),
+        Fraction(-1,-2)
+    )
+
+
+
 }
